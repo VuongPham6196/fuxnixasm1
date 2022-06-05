@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  nav {
+    background-color: #333;
+  }
+  nav ol a {
+    color: #fff;
+    font-size: 10px;
+  }
+  #hr {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #banner img {
+    display: none;
+  }
+  .banner-content {
+    position: relative;
+    margin: 100px 50px 50px;
+  }
+  #banner h1 {
+    color: #000;
+    margin-bottom: 20px;
+  }
+  #banner p,
+  #main p {
+    color: #555;
+  }
+  #main h2 {
+    margin-bottom: 20px;
+  }
+  html {
+    background-color: #fff;
+  }
+  footer {
+    background-color: #fff;
+  }
+  footer h3 {
+    font-size: 30px;
+  }
+}
